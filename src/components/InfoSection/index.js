@@ -1,6 +1,5 @@
 import React from 'react';
-import Pic from '../../images/1.svg';
-import { Button } from '../ButtonElement';
+
 import {
   InfoContainer,
   InfoWrapper,
