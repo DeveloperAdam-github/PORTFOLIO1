@@ -9,6 +9,7 @@ import {
   NavItem,
   MobileIcon,
   NavLinks,
+  Link,
   NavMenu,
   NavBtn,
   NavBtnLink,
@@ -81,6 +82,11 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   Contact
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks>
+                  <Link to='/setup'>Setup</Link>
                 </NavLinks>
               </NavItem>
             </NavMenu>

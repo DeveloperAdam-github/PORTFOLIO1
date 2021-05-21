@@ -6,6 +6,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
+  Link,
   SideBtnWrap,
   SidebarRoute,
 } from './SidebarElements';
@@ -27,6 +28,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to='contact' onClick={toggle}>
             Contact
           </SidebarLink>
+          <Link to='/setup'>Setup</Link>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to='/contact'> Contact Form</SidebarRoute>
