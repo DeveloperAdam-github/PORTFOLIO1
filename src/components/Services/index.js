@@ -3,6 +3,8 @@ import Icon1 from '../../images/5.svg';
 import Icon2 from '../../images/weatherApp.png';
 import Icon3 from '../../images/workoutapp.png';
 import Icon4 from '../../images/screenshot.png';
+import Icon5 from '../../images/f1-app.png';
+import Icon6 from '../../images/f1-app2.png';
 import {
   ServicesContainer,
   ServicesWrapper,
@@ -55,6 +57,20 @@ const Services = () => {
           </a>
           <ServicesH2>WorkoutApp V2</ServicesH2>
           <ServicesP>Another workout app using Firebase and React</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://quizzical-volhard-d9eda0.netlify.app/'
+          >
+            <ServicesIcon src={Icon5} />
+          </a>
+          <ServicesH2>F1 Stats App</ServicesH2>
+          <ServicesP>
+            F1 Stat tracking app, using an api, the stats are up to date. Built
+            in React
+          </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
