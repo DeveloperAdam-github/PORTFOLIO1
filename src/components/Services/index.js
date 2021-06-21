@@ -62,7 +62,7 @@ const Services = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://quizzical-volhard-d9eda0.netlify.app/'
+            href='https://f1-stat-app.netlify.app/'
           >
             <ServicesIcon src={Icon5} />
           </a>
