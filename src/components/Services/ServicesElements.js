@@ -75,6 +75,7 @@ export const ServicesIcon = styled.img`
   margin-bottom: 10px;
   border-radius: 50%;
   align-items: center;
+  object-fit: cover;
 `;
 
 export const ServicesH1 = styled.h1`
