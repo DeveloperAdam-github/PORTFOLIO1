@@ -7,14 +7,14 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #010606;
-  overflow: hidden;
+  overflow: scroll;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1600px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1600px;
   }
 `;
 
@@ -62,6 +62,7 @@ export const ServicesCard = styled.div`
 
   @media screen and (max-width: 1000px) {
     height: 300px;
+    margin-bottom: 20px;
   }
 
   @media screen and (max-width: 768px) {
