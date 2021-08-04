@@ -39,7 +39,7 @@ const Services = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://60a41cef48a017008e2ce9a9--vigorous-knuth-518d8a.netlify.app/'
+            href='https://the-weather-app1.netlify.app/'
           >
             <ServicesIcon src={Icon2} />
           </a>
