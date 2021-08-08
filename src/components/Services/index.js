@@ -5,7 +5,7 @@ import Icon3 from '../../images/workoutapp.png';
 import Icon4 from '../../images/screenshot.png';
 import Icon7 from '../../images/eCommerce.png';
 import Icon5 from '../../images/f1-app.png';
-import Icon6 from '../../images/f1-app2.png';
+import Icon6 from '../../images/screenshotapp.png';
 import {
   ServicesContainer,
   ServicesWrapper,
@@ -21,6 +21,21 @@ const Services = () => {
     <ServicesContainer id='portfolio'>
       <ServicesH1>My Projects</ServicesH1>
       <ServicesWrapper>
+        <ServicesCard>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://f1-fanzone.herokuapp.com/'
+          >
+            <ServicesIcon src={Icon6} />
+          </a>
+          <ServicesH2>F1 Fanzone</ServicesH2>
+          <ServicesP>
+            A fullstack MERN app with mutliple APIs, showing live driver/team
+            points, up coming races, weather and user auth!
+          </ServicesP>
+        </ServicesCard>
+
         <ServicesCard>
           <a
             target='_blank'
