@@ -49,7 +49,7 @@ const Footer = () => {
               }}
             >
               OR fill in the contact
-              <Link to='/signin' style={{ textDecoration: 'none' }}>
+              <Link to='/contact' style={{ textDecoration: 'none' }}>
                 <span style={{ color: '#02bf71', fontWeight: '800' }}>
                   {' '}
                   FORM
