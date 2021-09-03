@@ -44,8 +44,8 @@ const InfoSection = ({
                 </Heading>
                 <Subtitle darkText={darkText}>
                   <p>
-                    I'm Adam, a 29 year old self-taught web developer, from
-                    United Kingdom.
+                    I'm Adam, a self-taught junior web developer, from United
+                    Kingdom.
                   </p>
                 </Subtitle>
                 <Subtitle darkText={darkText}>
